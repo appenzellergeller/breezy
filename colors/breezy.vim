@@ -6,11 +6,7 @@ endif
 let g:colors_name = 'breezy'
 let g:terminal_ansi_colors = ['#232629', '#ED1515', '#11D116', '#f67400', '#1D99F3', '#9B59B6', '#1ABC9C', '#cfcfc2', '#7F8C8D', '#C0392B', '#1CDC9A', '#FDBD4B', '#3daee9', '#8e44ad', '#16A085', '#FFFFFF']
 
-if(&background == "dark")
-    hi Normal        guibg=#000000 guifg=#cfcfc2 gui=NONE cterm=NONE
-else
-    hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE cterm=NONE
-endif
+hi Normal        guibg=#232629 guifg=#cfcfc2 gui=NONE cterm=NONE
 
 hi LineNr        guibg=#31363b guifg=#7a7c7d gui=NONE cterm=NONE
 hi FoldColumn    guibg=#31363b guifg=#7a7c7d gui=NONE cterm=NONE
